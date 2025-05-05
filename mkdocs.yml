@@ -1,0 +1,14 @@
+site_name: My Confluence Documentation
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.expand
+    - toc.integrate
+  palette:
+    primary: blue
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - User Guide: user-guide.md
+  - FAQ: faq.md
