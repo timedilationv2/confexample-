@@ -2,13 +2,16 @@ site_name: My Confluence Documentation
 theme:
   name: material
   features:
-    - navigation.instant
-    - navigation.expand
-    - toc.integrate
+    - navigation.instant       # instant page loading
+    - navigation.expand        # dynamically expandable sections
+    - navigation.sections      # structured sections clearly in sidebar
+    - toc.integrate            # dynamic table of contents integration
   palette:
     primary: blue
+
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
-  - User Guide: user-guide.md
-  - FAQ: faq.md
+  - User Guide:
+      - Overview: user-guide.md
+      - FAQ: faq.md
